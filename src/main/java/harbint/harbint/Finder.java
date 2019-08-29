@@ -11,6 +11,7 @@ public class Finder {
             return null;
         }
         if(intArray == null) {
+            System.out.println("returned null");
             return null;
         }
         int placeholder = intArray[0];
@@ -28,6 +29,7 @@ public class Finder {
             return null;
         }
         if(intArray == null) {
+            System.out.println("returned null");
             return null;
         }
         int placeholder = intArray[0];

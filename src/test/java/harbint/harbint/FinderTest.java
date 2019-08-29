@@ -25,17 +25,15 @@ public class FinderTest {
 	@Test
 	public void test_max_null() {
 		Finder testFinder = new Finder();
-		int array[] = {1};
-		array = null;
-		Integer expectedResult = null;
+		int array[] = {};
+		int expectedResult[] = null;
 		Integer actualresult = testFinder.findMax(array);
 		assertEquals(actualresult,expectedResult);
 	}
 	@Test
 	public void test_min_null() {
 		Finder testFinder = new Finder();
-		int array[] = {1};
-		array = null;
+		int array[] = {};
 		Integer expectedResult = null;
 		Integer actualresult = testFinder.findMin(array);
 		assertEquals(actualresult,expectedResult);
